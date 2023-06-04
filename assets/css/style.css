@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    color: #13005A;
+}
+#header{
+    background-color: #ECF2FF;
+    color: #13005A;
+}
+#header span{
+    color: #EB455F;
+}
+.navbar-brand{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.nav-item{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.nav-link{
+    color: #13005A;
+    font-weight: bolder;
+}
+#header .btn{
+    border-radius: 30px;
+    margin-left: 10px;
+}
+#header{
+    max-height: 125vh;
+}
+.text .btn{
+    color: #fff;
+    background-color: #13005A;
+}
+.text img{
+    width: 80%;
+
+}
+/* index CSS */
+#index{
+    margin-top: 10%;
+}
+.index-img{
+    position: relative;
+}
+#index .book-page-1 {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    width: 76%;
+    height: 83%;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+}
+.index-text ul li {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.index-text ul li a {
+    color: #273863;
+}
+.check{
+    color: #C73A2F;
+}
+.index-btn {
+    background-color: #C73A2F;
+    color: #F4F7FC;
+}
+/* content */
+.index-content {
+    margin-top: 55px;
+}
+.content {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+}
+.content .b-icon {
+    font-size: 50px;
+    color: #C73A2F;
+    font-weight: 100;
+    
+}
+.rocket {
+    color: #698F64 !important;
+}
+.envelop {
+    color: #E8C82C !important;
+}
+.content p {
+    line-height: 28px;
+    color: #A7AAB8;
+}
+/* announcement */
+.index-announcement {
+    background-color: #ECF2FF;
+    padding: 6% 0;
+    margin-top: 7%;
+}
+.index-announcement p {
+    color: #444651;
+}
+.index-announcement .philosopher {
+    color: #C73A2F;
+    font-size: 1rem;
+}
+/* chapter */
+.chapter-item {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 30px;
+    margin-bottom: 25px;
+}
+.chapter-item h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #C73A2F;
+    font-size: 1.2rem;
+}
+#chapter .chapter-item p {
+    color: #A7AAB8;
+    font-size: 1rem;
+}
+p{
+  color: #A7AAB8;  
+}
+/* review */
+.review-item {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #fff;
+}
+.review-item img {
+    border-radius: 100%;
+    width: 25%;
+}
+.fa-star {
+    color: #C73A2F;
+}
+.review-item p {
+    color: #A7AAB8; 
+    line-height: 30px;
+}
+#review .bottom-background {
+    height: 365px;
+    background-color:#F4F7FC;
+    width: 100%;
+}
+.review {
+    display: flex;
+    flex-direction: column;
+}
+
+.review .container {
+    min-height: 352px;
+    max-height: 359px;
+    z-index: 99999;
+}
+/* Device CSS */
+.icon .img {
+    width: 5%;
+    height: 5%;
+}
+.icon .img img {
+    width: 100%;
+}
+
+.device-text {
+    line-height: 30px;
+}
+#device h2 {
+    font-size: 1.5rem;
+}
+#device p {
+    line-height: 30px;
+}
+.device-btn {
+    background-color: #C73A2F;
+    color: #F4F7FC;
+    border-radius: 50px;
+    padding: 10px 25px;
+}
+/* Writer CSS */
+#writer {
+    position: relative;
+}
+.writer-image {
+    position: absolute;
+    z-index: 9;
+    left: 15%;
+    top: 16%;
+}
+.writer-image .img {
+    width: 75%;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.writer-image .img img {
+    border-radius: 5px;
+}
+.writer-content {
+    height: 778px;
+    background-color: #F4F7FC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px 0 0 20px;
+    padding: 0 25%;
+}
+.writer-text {
+    position: relative;
+}
+.writer-content h3{
+    font-weight: bold;
+}
+.writer-content p{
+    color: #ADB3BE;
+}
+.writer-content .img {
+    width: 80%;
+}
+/* Award CSS */
+.award-item img {
+    width: 100%;
+}
+.award-text h2 {
+    line-height: 46px;
+}
+.award-item {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-align: center;
+    padding: 25px 0;
+}
+.award-item h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+/* Author CSS */
+.author-text p {
+    font-size: .75rem;
+}
+.author-image .img img {
+    width: 100%;
+}
+/* Article CSS */
+article {
+    padding: 7% 0;
+}
+.article-text p {
+    font-size: .75rem;
+}
+.article-image .card img {
+    width: 100%;
+}
+.article-image p {
+    font-size: .8rem;
+}
+.article-image span {
+    color: #000;
+    font-weight: bold;
+}
+.article-image h5 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #273863;
+}
+.article-image .img img {
+    width: 100%;
+}
+/* Content CSS */
+#contact {
+    background-color: #F4F7FC;
+}
+.content-text p {
+    font-size: .85rem;
+}
+.contact {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-align: center;
+    padding: 60px;
+    background-color: #fff;
+}
+.contact  h3 {
+    font-size: 1rem;    
+    font-weight: bold;    
+    margin-top: 5px;
+}
+.contact .icon {
+    font-size: 38px;
+    color: #C73A2F;
+    margin-bottom: 20px;
+}
+.location {
+    padding: 60px 54px ;
+}
+/* footer CSS */
+footer {
+    padding: 7% 0;
+    background-color: #FEFEFE;
+}
+.footer-widget h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #273863;  
+    margin-bottom: 20px;  
+}
+.footer-widget p {
+    color: #B1B3BD;
+    font-size: 1rem;
+}
+.footer-widget input {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    padding: 10px 5px;
+    border: 1px solid #fff;
+    color: #B1B3BD;
+}
+.footer-widget input::placeholder {
+    color: #B1B3BD;
+}
+.footer-widget input:focus {
+    outline: none;
+}
+.footer-btn {
+    background-color: #395676;
+    color: #F4F7FC;
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.main-footer p  {
+    color: #375877;
+}
+.main-footer {
+    margin-top: 40px;
+    border-top: 1px solid #F4F7FC;
+}
+.main-footer span {
+    color: #C73A2F;
+}
+.main-footer .img img {
+    width: 60%;
+}
+
+
